@@ -38,7 +38,7 @@ lot.setHeaderLotType(
 )
 
 for lineNumber in lineNumbers:
-    print lineNumber
+    print(lineNumber)
 
     lineNumber = LineNumberO(lineNumber)
 

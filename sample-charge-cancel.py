@@ -45,7 +45,7 @@ slip = Slip()
 slip.setSender(myself)
 slip.setAmountInCents("2000")
 slip.setPayer(payer)
-slip.setExpirationDate(datetime(day=01, month=07, year=2019))
+slip.setExpirationDate(datetime(day=1, month=7, year=2019))
 slip.setBankIdentifier(
     identifier="1",
     branch=myself.bank.branchCode,
